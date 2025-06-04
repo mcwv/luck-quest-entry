@@ -85,13 +85,18 @@ const Index = () => {
             Enter our skill-based competition for just £2 and you could win a top-of-the-range paddleboard worth £500+
           </p>
 
-          {/* Prize Image Placeholder */}
+          {/* Hero Image - Couple Paddleboarding */}
           <div className="mb-12">
-            <div className="bg-gradient-to-r from-blue-400 to-cyan-400 rounded-2xl p-8 max-w-md mx-auto shadow-2xl transform hover:scale-105 transition-transform duration-300">
-              <div className="bg-white/20 rounded-lg p-6 backdrop-blur-sm">
-                <Waves className="h-24 w-24 text-white mx-auto mb-4" />
-                <h3 className="text-white text-2xl font-bold mb-2">Premium Paddleboard</h3>
-                <p className="text-white/90">Professional Grade • Worth £500+</p>
+            <div className="relative rounded-2xl overflow-hidden max-w-4xl mx-auto shadow-2xl transform hover:scale-105 transition-transform duration-300">
+              <img 
+                src="/photo-1506905925346-21bda4d32df4" 
+                alt="Couple enjoying paddleboarding together on beautiful water"
+                className="w-full h-64 md:h-96 object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+              <div className="absolute bottom-6 left-6 right-6 text-white">
+                <h3 className="text-2xl md:text-3xl font-bold mb-2">Premium Paddleboard Experience</h3>
+                <p className="text-white/90 text-lg">Professional Grade • Worth £500+</p>
               </div>
             </div>
           </div>
@@ -232,6 +237,18 @@ const Index = () => {
           <h3 className="text-2xl font-bold text-center text-gray-900 mb-8">
             Why Choose Leisure Luck?
           </h3>
+          
+          {/* Technical Paddleboard Image */}
+          <div className="max-w-2xl mx-auto mb-12">
+            <img 
+              src="/photo-1544551763-46a013bb70d5" 
+              alt="Professional paddleboard technical specifications"
+              className="w-full h-48 md:h-64 object-cover rounded-xl shadow-lg"
+            />
+            <p className="text-center text-gray-600 mt-4 text-lg">
+              Professional-grade paddleboard with premium construction and materials
+            </p>
+          </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
