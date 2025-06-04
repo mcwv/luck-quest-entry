@@ -1,4 +1,4 @@
-
+import HeroImage from '../assets/hero-image.png';
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -88,11 +88,11 @@ const Index = () => {
           {/* Hero Image - Couple Paddleboarding */}
           <div className="mb-12">
             <div className="relative rounded-2xl overflow-hidden max-w-4xl mx-auto shadow-2xl transform hover:scale-105 transition-transform duration-300">
-              <img 
-                src="/photo-1506905925346-21bda4d32df4" 
-                alt="Couple enjoying paddleboarding together on beautiful water"
-                className="w-full h-64 md:h-96 object-cover"
-              />
+            <img
+  src={HeroImage}
+  alt="Couple enjoying paddleboarding"
+  className="w-full h-64 md:h-96 object-cover rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-300"
+            />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
               <div className="absolute bottom-6 left-6 right-6 text-white">
                 <h3 className="text-2xl md:text-3xl font-bold mb-2">Premium Paddleboard Experience</h3>
